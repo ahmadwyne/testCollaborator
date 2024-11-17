@@ -34,7 +34,7 @@ public class AdventureGameInventory extends JFrame {
         // Custom Font
         Font customFont = new Font("Arial", Font.BOLD, 14);
 
-        System.out.println("I am testing collaborator");
+        System.out.println("I am testing collaborator again");
 
         // Input Panel with GridBagLayout
         JPanel panelInput = new JPanel(new GridBagLayout());
