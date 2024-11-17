@@ -34,6 +34,8 @@ public class AdventureGameInventory extends JFrame {
         // Custom Font
         Font customFont = new Font("Arial", Font.BOLD, 14);
 
+        System.out.println("I am testing collaborator");
+
         // Input Panel with GridBagLayout
         JPanel panelInput = new JPanel(new GridBagLayout());
         panelInput.setBackground(new Color(43, 47, 51)); // Slightly lighter background for input panel
