@@ -6,7 +6,7 @@
 /**
  *
  * @author ahmad
- lets see if we get autmated
+ lets see if we get automated
  */
 
 import javax.swing.*;
