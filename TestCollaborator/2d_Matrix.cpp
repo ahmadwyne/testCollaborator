@@ -2,7 +2,7 @@
 //kxdskicjmiedmcj
 using namespace std;
 //raffat...
-// Function to print a 2D matrix
+///hheeeelloooooo
 void printMatrix(int matrix[][3], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
