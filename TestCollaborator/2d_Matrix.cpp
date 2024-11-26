@@ -21,6 +21,17 @@ void transposeMatrix(int matrix[][3], int transpose[][3], int rows, int cols) {
     }
 }
 
+// Function to compute the sum of all entries in the matrix
+int sumMatrix(int matrix[][3], int rows, int cols) {
+    int sum = 0;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            sum += matrix[i][j];
+        }
+    }
+    return sum;
+}
+
 int main() {
     // Example 2D matrix with fixed size 3x3
     int matrix[3][3] = {
