@@ -6,8 +6,10 @@
 /**
  *
  * @author ahmad
-I am testing collaborator
-*/
+
+Hello I am testing collaborator
+ */
+
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
