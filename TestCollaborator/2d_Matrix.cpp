@@ -32,6 +32,17 @@ int sumMatrix(int matrix[][3], int rows, int cols) {
     return sum;
 }
 
+// Function to compute the multiply of all entries in the matrix
+int sumMatrix(int matrix[][3], int rows, int cols) {
+    int multiply = 1;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            multiply *= matrix[i][j];
+        }
+    }
+    return multiply;
+}
+
 int main() {
     // Example 2D matrix with fixed size 3x3
     int matrix[3][3] = {
