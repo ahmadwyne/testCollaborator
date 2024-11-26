@@ -2,6 +2,15 @@
 
 using namespace std;
 
+// Function to compute the transpose of a matrix
+void transposeMatrix(int matrix[][3], int transpose[][3], int rows, int cols) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            transpose[j][i] = matrix[i][j];
+        }
+    }
+}
+
 // Function to print a 2D matrix
 void printMatrix(int matrix[][3], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
