@@ -51,7 +51,6 @@ int main() {
         {7, 8, 9}
     };
 
-    // Print the 2D matrix
     cout << "The matrix is:" << endl;
     printMatrix(matrix, 3, 3);
 
